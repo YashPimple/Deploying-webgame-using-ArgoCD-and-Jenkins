@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-game-deployment
+  labels:
+    app: web-game
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-game
+  template:
+    metadata:
+      labels:
+        app: web-game
+    spec:
+      containers:
+      - name: web-game
+        image: yashpimple22/web-game:latest
+        ports:
+        - containerPort: 3001
+        resources:
+         limits:
+            memory: "128Mi"
+            cpu: "500m"
