@@ -31,14 +31,14 @@ pipeline {
     }
      stage('Updating deployment.yaml'){
        environment {
-            GIT_REPO_NAME = "Project-4"
-            GIT_USER_NAME = "YashPimple"
+            GIT_REPO_NAME = <REPO_NAME>
+            GIT_USER_NAME = <USER_NAME>
        }
       steps {
         withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
           sh '''
-            git config user.email "yashpimple22@gmail.com"
-            git config user.name "YashPimple"
+            git config user.email <EMAIL>
+            git config user.name <USER_NAME>
             BUILD_NUMBER=${BUILD_NUMBER}
             sed -i "s/latest/${BUILD_NUMBER}/g" Manifests/deployment.yaml
             git add Manifests/deployment.yaml
