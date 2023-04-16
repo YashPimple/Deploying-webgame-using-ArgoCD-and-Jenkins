@@ -1,0 +1,24 @@
+apiVersion: core.napptive.com/v1alpha1
+kind: ApplicationMetadata
+# Name of the application, not necessarily a valid k8s name.
+name: "Web-game"
+# Version of the application, typically related with the components versions.
+version: v1.0.0
+description: SharkTanks is a thrilling 3D multiplayer game built from scratch with threeJs, nodeJs, expressJs, socketIo, and vanillaJs. Join the battle and forge your destiny in an immersive underwater world filled with challenges and endless possibilities. Play with friends from around the world and become a legend in SharkTanks - the ultimate online gaming experience.
+# Keywords facilitate searches on the catalog
+keywords:
+  - "web"
+  - "github"
+  - "cloudnative"
+  - "napptive"
+# Set the license based on the components that are deployed in an application.
+license: "Apache License Version 2.0"
+# URL and Doc entries with links to get more information on the application and its associated documentation.
+url: "https://github.com/KlausMikhaelson/SharkTanks-Debug_Thugs"
+doc: "https://github.com/KlausMikhaelson/SharkTanks-Debug_Thugs/blob/master/README.md"
+# The logo can be used as visual information when listing the catalog so the user
+# recognizes more easily the application. Avoid hotlinking images without permission.
+logo:
+  - src: "https://www.freeonlinegames.com/games/162599/medium.jpg?1593093940"
+    type: "image/jpg"
+    size: "120x120"
