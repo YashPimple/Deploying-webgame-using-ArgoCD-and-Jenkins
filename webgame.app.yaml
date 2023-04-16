@@ -1,0 +1,26 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: web-game
+  annotations: 
+    description: "SharkTanks is a thrilling 3D multiplayer game"
+spec:
+ components:
+    - name: shark-tank
+      type: webservice
+      properties:
+        image: yashpimple22/web-game:latest
+        ports:
+            - port: 3001
+              expose: true
+      traits:
+        - type: napptive-ingress
+          properties:
+            name: webgame-server
+            port: 3001
+            path: /
+            rewritePath: /
+            traits:
+        - type: scaler 
+          properties:
+            replicas: 2
