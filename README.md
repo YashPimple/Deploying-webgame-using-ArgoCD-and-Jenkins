@@ -18,7 +18,7 @@ We used the following technologies to build the game:
 - Three.js, Express.js and Node.js for the game environment and the backend
 - Railway.app for hosting
 - Socket.io as a client-server interaction tool
-- Docket
+- Docker
 
 ### 🚧 Deployed Napptive project link 
 The [Shark-tank](sharktanks.tech/) web game is successfully deployed using the Open Application Model via the NAPPTIVE platform 
