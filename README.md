@@ -1,14 +1,23 @@
-## Deploying an open source application using Napptive
+## 🚀Deploying an open source application using Napptive
 
 Welcome to SharkTanks! It is an online multiplayer game that allows multiple players to play together over the internet with each other. Even if there is no one around to play, we have implemented a bot that can work as an additional player. This game is open-sourced, so feel free to create issues to add features or fix bugs. If you find the project interesting, please consider giving it a star!
 
-### Inspiration
+### 💪🏻Inspiration
 We were inspired to build an online multiplayer game because we are fans of video games and the idea of being able to play with others from across the world really excites us.
 
-### Demo
+### 🚦Demo
 ![demo](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/338/753/datas/original.png)
 
-### Play Now
-Click [here](https://sharktanks.tech/) to play the game!
+### 🏎Play Now
+Click https://sharktanks.tech/ to play the game!
 
-### Deployed Napptive project link : https://nginx-ingress-cgnggjlt998c97mfuj2g.apps.playground.napptive.dev/
+### 💻Technologies Used
+We used the following technologies to build the game:
+
+- HTML and CSS for the landing page
+- Three.js, Express.js and Node.js for the game environment and the backend
+- Railway.app for hosting
+- Socket.io as a client-server interaction tool
+- Docket
+
+### 🚧Deployed Napptive project link : https://nginx-ingress-cgnggjlt998c97mfuj2g.apps.playground.napptive.dev/
