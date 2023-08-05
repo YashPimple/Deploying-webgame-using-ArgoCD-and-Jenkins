@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YashPimple/Project-4
+    repoURL: https://github.com/YashPimple/Deployment-of-webgame-through-ArgoCD-and-GitOps.git
     targetRevision: HEAD
     path: Manifests
   destination: 
